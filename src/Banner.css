@@ -1,0 +1,41 @@
+.banner{
+    background: url(https://i1.wp.com/innovation-village.com/wp-content/uploads/2020/04/airbnb-ski-aspen-28328347.jpg?fit=2250%2C1500&ssl=1) center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__info{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 15vh 50px 40px 50px;
+    width: 300px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+}
